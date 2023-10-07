@@ -7,7 +7,19 @@ import './App.css';
 
 const App = () => {
     return (
-        <div className='text-6xl text-red-500'>App</div>
+        <div>
+            <BrowserRouter>
+                <div className='flex relative bg-main-dark-bg'>
+                    <div className='fixed right-4 bottom-4' style={{zIndex:'1000'}}>
+                        <TooltipComponent content="setting" position='Top'>
+                            <button>
+                                <FiSettings/>
+                            </button>
+                        </TooltipComponent>
+                    </div>
+                </div>
+            </BrowserRouter>
+        </div>
     )
 }
 
