@@ -27,7 +27,7 @@ const App = () => {
                             Sidebar
                         </div>
                     ) : (
-                        <div>
+                        <div className='w-0 dark:bg-secondary-dark-bg'>
                             Sidebar w-o
                         </div>
                     )}
