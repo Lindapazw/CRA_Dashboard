@@ -21,14 +21,8 @@ const NavButton = ({title, customFunc, icon, color, dotColor}) => (
     </TooltipComponent>
 )
 
-// Define the handleClick function
-function handleClick(target) {
-    // Add your logic for handling the click event here
-    console.log(`Clicked on ${target}`);
-}
-
 const Navbar = () => {
-    const {activeMenu, setActiveMenu} = useStateContext();
+    const {activeMenu, setActiveMenu, isClicked, setIsClicked, handleClick} = useStateContext();
 
     return (
         <div className='flex justify-between p-2 md:mx-6 relative'>
@@ -64,6 +58,10 @@ const Navbar = () => {
                         <MdKeyboardArrowDown className='text-gray-400 text-14'/>
                     </div>
                 </TooltipComponent>
+                {isClicked.cart && <Cart/>}
+                {isClicked.chat && <Chat/>}
+                {isClicked.notifications && <Notification/>}
+                {isClicked.UserProfile && <UserProfile/>}
             </div>
         </div>
     )
