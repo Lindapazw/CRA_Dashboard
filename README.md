@@ -2,8 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Captura de pantalla 2023-10-16 123840](https://github.com/Lindapazw/CRA_Dashboard/assets/88910652/e7249c04-e2d6-4e70-9bda-f8542192de67)
-![Captura de pantalla 2023-10-16 124009](https://github.com/Lindapazw/CRA_Dashboard/assets/88910652/c0152fad-d742-4567-975e-4c2997625d9e)
+![Captura de pantalla 2023-10-16 123840](https://github.com/Lindapazw/CRA_Dashboard/assets/88910652/818adcd0-e580-4468-82c1-54e035072077)
+![Captura de pantalla 2023-10-16 124009](https://github.com/Lindapazw/CRA_Dashboard/assets/88910652/21de70db-e7d7-490f-917c-8e28bc1c7cf1)
 
 ## Available Scripts
 
